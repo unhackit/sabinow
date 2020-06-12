@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sabi Now</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/36afc40636.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="./css/landing.css"/>
+        <link rel='stylesheet' href="./index.css"/>
+    </head>
+    <body>
+    <!-- navigation and main header-->
+    <header id='header'>
+        <div class="custom-container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="/"><img src='./assets/images/sabilogo.svg' alt='logo' width="100%"/></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon2"><i class="fas fa-search"></i></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Programs
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Become An Instructor</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><img src="./assets/images/cartvector.svg" alt='cart'/> Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link button-white" href='#'>LOG IN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link button-dark" href='#'>SIGN UP</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- main section-->
+    <section id="introduction">
+        <div class="layer">
+            <div class="custom-container">
+                <div>
+                    <h1>Learn on your <br/> schedule</h1>
+                    <p>Study any topic, any time. Explore from thousands of topics</p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="basic-addon2"><i class="fas fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id='offer'>
+        <div class="custom-container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h1>What We Offer</h1>
+                </div>
+                <div class="col-md-3">
+                    <img src='./assets/images/coursevector.svg' alt='course'>
+                    <p class="title">100,000 <span>Courses</span></p>
+                    <p class="description">Explore a variety of online topics</p>
+                </div>
+                <div class="col-md-3">
+                    <img src='./assets/images/expertvector.svg' alt='course'>
+                    <p class="title">Expert Instructors</p>
+                    <p class="description">Find the right instructor for you</p>
+                </div>
+                <div class="col-md-3">
+                    <img src='./assets/images/lifevector.svg' alt='course'>
+                    <p class="title">Lifetime Access</p>
+                    <p class="description">Learn on your schedule </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id='courses'>
+        <div class="custom-container">
+            <div class="courses">
+                <h1>The World’s Largest Selection of Courses </h1>
+                <p>Choose from over 100,000 online video courses with new additions published every month</p>
+            </div>
+            <div class="courses-nav">
+                <p class="active">Growth</p>
+                <p>Leadership</p>
+                <p>Design</p>
+                <p>Marketing</p>
+                <p>Business</p>
+                <p>Development</p>
+            </div>
+            <div class="course-slider course-collection">
+                <div class="card" style="width: 25rem; border-radius: 10px; margin-right: 15px;">
+                    <img src="./assets/images/coursecardvector.svg" class="card-img-top" alt="...">
+                    <span class="price">$399</span>
+                    <div class="card-body">
+                      <h5 class="card-title">Communicating Effectively</h5>
+                      <p class="card-text instructor">Chris Doherty</p>
+                      <div class="d-flex">
+                        <div class="Stars" style="--rating: 2.9;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                        <span class="rate-text">3.6 (17,426)</span>
+                      </div>
+                      <p class="card-text experience"><i class="fas fa-signal"></i> Intermediate</p>
+                      <p class="card-text timer"><i class="far fa-clock"></i> 8 hours total</p>
+                      <div class="d-flex justify-content-between action mt-3">
+                        <button>Add to Cart</button>
+                        <i class="far fa-heart"></i>
+                      </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 25rem; border-radius: 10px; margin-right: 15px;">
+                    <img src="./assets/images/coursecardvector.svg" class="card-img-top" alt="...">
+                    <span class="price">$399</span>
+                    <div class="card-body">
+                      <h5 class="card-title">Communicating Effectively</h5>
+                      <p class="card-text instructor">Chris Doherty</p>
+                      <div class="d-flex">
+                        <div class="Stars" style="--rating: 2.9;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                        <span class="rate-text">3.6 (17,426)</span>
+                      </div>
+                      <p class="card-text experience"><i class="fas fa-signal"></i> Intermediate</p>
+                      <p class="card-text timer"><i class="far fa-clock"></i> 8 hours total</p>
+                      <div class="d-flex justify-content-between action mt-3">
+                        <button>Add to Cart</button>
+                        <i class="far fa-heart"></i>
+                      </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 25rem; border-radius: 10px; margin-right: 15px;">
+                    <img src="./assets/images/coursecardvector.svg" class="card-img-top" alt="...">
+                    <span class="price">$399</span>
+                    <div class="card-body">
+                      <h5 class="card-title">Communicating Effectively</h5>
+                      <p class="card-text instructor">Chris Doherty</p>
+                      <div class="d-flex">
+                        <div class="Stars" style="--rating: 2.9;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                        <span class="rate-text">3.6 (17,426)</span>
+                      </div>
+                      <p class="card-text experience"><i class="fas fa-signal"></i> Intermediate</p>
+                      <p class="card-text timer"><i class="far fa-clock"></i> 8 hours total</p>
+                      <div class="d-flex justify-content-between action mt-3">
+                        <button>Add to Cart</button>
+                        <i class="far fa-heart"></i>
+                      </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 25rem; border-radius: 10px; margin-right: 15px;">
+                    <img src="./assets/images/coursecardvector.svg" class="card-img-top" alt="...">
+                    <span class="price">$399</span>
+                    <div class="card-body">
+                      <h5 class="card-title">Communicating Effectively</h5>
+                      <p class="card-text instructor">Chris Doherty</p>
+                      <div class="d-flex">
+                        <div class="Stars" style="--rating: 2.9;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                        <span class="rate-text">3.6 (17,426)</span>
+                      </div>
+                      <p class="card-text experience"><i class="fas fa-signal"></i> Intermediate</p>
+                      <p class="card-text timer"><i class="far fa-clock"></i> 8 hours total</p>
+                      <div class="d-flex justify-content-between action mt-3">
+                        <button>Add to Cart</button>
+                        <i class="far fa-heart"></i>
+                      </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 25rem; border-radius: 10px; margin-right: 15px;">
+                    <img src="./assets/images/coursecardvector.svg" class="card-img-top" alt="...">
+                    <span class="price">$399</span>
+                    <div class="card-body">
+                      <h5 class="card-title">Communicating Effectively</h5>
+                      <p class="card-text instructor">Chris Doherty</p>
+                      <div class="d-flex">
+                        <div class="Stars" style="--rating: 2.9;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                        <span class="rate-text">3.6 (17,426)</span>
+                      </div>
+                      <p class="card-text experience"><i class="fas fa-signal"></i> Intermediate</p>
+                      <p class="card-text timer"><i class="far fa-clock"></i> 8 hours total</p>
+                      <div class="d-flex justify-content-between action mt-3">
+                        <button>Add to Cart</button>
+                        <i class="far fa-heart"></i>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id='featured'>
+        <div class="custom-container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Featured Courses</h1>
+                    <p>Take a look at some of these highlighted courses that might pique your interest.</p>
+                </div>
+            </div>
+            <div class="featured-collection">
+                <div class="course-collection">
+                    <div class="card" style="width: 16.5rem; border-radius: 10px; margin-right: 10px;">
+                        <img src="./assets/images/coursecardvector.svg" class="card-img-top" alt="...">
+                        <span class="price">$399</span>
+                        <div class="card-body">
+                            <h5 class="card-title">Communicating Effectively</h5>
+                            <p class="card-text instructor">Chris Doherty</p>
+                            <div class="d-flex">
+                            <div class="Stars" style="--rating: 2.9;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                            <span class="rate-text">3.6 (17,426)</span>
+                            </div>
+                            <p class="card-text experience"><i class="fas fa-signal"></i> Intermediate</p>
+                            <p class="card-text timer"><i class="far fa-clock"></i> 8 hours total</p>
+                            <div class="d-flex justify-content-between action mt-3">
+                            <button>Add to Cart</button>
+                            <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 16.5rem; border-radius: 10px; margin-right: 10px;">
+                        <img src="./assets/images/coursecardvector.svg" class="card-img-top" alt="...">
+                        <span class="price">$399</span>
+                        <div class="card-body">
+                            <h5 class="card-title">Communicating Effectively</h5>
+                            <p class="card-text instructor">Chris Doherty</p>
+                            <div class="d-flex">
+                            <div class="Stars" style="--rating: 2.9;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                            <span class="rate-text">3.6 (17,426)</span>
+                            </div>
+                            <p class="card-text experience"><i class="fas fa-signal"></i> Intermediate</p>
+                            <p class="card-text timer"><i class="far fa-clock"></i> 8 hours total</p>
+                            <div class="d-flex justify-content-between action mt-3">
+                            <button>Add to Cart</button>
+                            <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 16.5rem; border-radius: 10px; margin-right: 10px;">
+                        <img src="./assets/images/coursecardvector.svg" class="card-img-top" alt="...">
+                        <span class="price">$399</span>
+                        <div class="card-body">
+                            <h5 class="card-title">Communicating Effectively</h5>
+                            <p class="card-text instructor">Chris Doherty</p>
+                            <div class="d-flex">
+                            <div class="Stars" style="--rating: 2.9;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                            <span class="rate-text">3.6 (17,426)</span>
+                            </div>
+                            <p class="card-text experience"><i class="fas fa-signal"></i> Intermediate</p>
+                            <p class="card-text timer"><i class="far fa-clock"></i> 8 hours total</p>
+                            <div class="d-flex justify-content-between action mt-3">
+                            <button>Add to Cart</button>
+                            <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 16.5rem; border-radius: 10px; margin-right: 10px;">
+                        <img src="./assets/images/coursecardvector.svg" class="card-img-top" alt="...">
+                        <span class="price">$399</span>
+                        <div class="card-body">
+                            <h5 class="card-title">Communicating Effectively</h5>
+                            <p class="card-text instructor">Chris Doherty</p>
+                            <div class="d-flex">
+                            <div class="Stars" style="--rating: 2.9;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                            <span class="rate-text">3.6 (17,426)</span>
+                            </div>
+                            <p class="card-text experience"><i class="fas fa-signal"></i> Intermediate</p>
+                            <p class="card-text timer"><i class="far fa-clock"></i> 8 hours total</p>
+                            <div class="d-flex justify-content-between action mt-3">
+                            <button>Add to Cart</button>
+                            <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id='popular'>
+        <div class="custom-container">
+            <div>
+                <h1>Popular Categories</h1>
+                <p> Select from what other students are viewing</p>
+            </div>
+            <div class="categories">
+                <div class="category-box">
+                    <img src='./assets/images/growthvector.svg'/>
+                    <p>Growth</p>
+                    <span>20,000 students like this</span>
+                </div>
+                <div class="category-box">
+                    <img src='./assets/images/marketingvector.svg'/>
+                    <p>Marketing</p>
+                    <span>20,000 students like this</span>
+                </div>
+                <div class="category-box">
+                    <img src='./assets/images/designvector.svg'/>
+                    <p>Design</p>
+                    <span>20,000 students like this</span>
+                </div>
+                <div class="category-box">
+                    <img src='./assets/images/leadershipvector.svg'/>
+                    <p>Leadership</p>
+                    <span>20,000 students like this</span>
+                </div>
+                <div class="category-box">
+                    <img src='./assets/images/marketingvector.svg'/>
+                    <p>Business</p>
+                    <span>20,000 students like this</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id='get-started'>
+        <div class="custom-container">
+            <div class="get-started-banner">
+                <div class="layer"> 
+                    <h1>Get Started Today</h1>
+                    <p>Join millions of others who are empowering themselves through immersive digital education</p>
+                    <button>GET STARTED</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="instructor">
+        <div class="custom-container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="assets/images/instructor.svg"/>
+                </div>
+                <div class="col-md-8 instructor-detail">
+                    <p class="title">Want to become an instructor ?</p>
+                    <p class="description">Top instructors from around the world teach millions of students on Udemy. We provide the tools and skills to teach what you love.</p>
+                    <button>Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial">
+        <div class="custom-container">
+            <h1 class="text-center mb-4">What our Students are saying</h1>
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <div class="testimonial-card">
+                        <div>
+                            <img src='./assets/images/study.svg'/>
+                        </div>
+                        <div>
+                            <p class="student">Victoria Akomo</p>
+                            <p class="description">“I believe in lifelong learning and SabiNow is a great place to learn from the very best and top experts in the field.”</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="testimonial-card">
+                        <div>
+                            <img src='./assets/images/study.svg'/>
+                        </div>
+                        <div>
+                            <p class="student">Victoria Akomo</p>
+                            <p class="description">“I believe in lifelong learning and SabiNow is a great place to learn from the very best and top experts in the field.”</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="testimonial-card">
+                        <div>
+                            <img src='./assets/images/study.svg'/>
+                        </div>
+                        <div>
+                            <p class="student">Victoria Akomo</p>
+                            <p class="description">“I believe in lifelong learning and SabiNow is a great place to learn from the very best and top experts in the field.”</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="testimonial-card">
+                        <div>
+                            <img src='./assets/images/study.svg'/>
+                        </div>
+                        <div>
+                            <p class="student">Victoria Akomo</p>
+                            <p class="description">“I believe in lifelong learning and SabiNow is a great place to learn from the very best and top experts in the field.”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="custom-container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <h1>SabiNow</h1>
+                    <ul>
+                        <li><a href='/'>About us</a></li>
+                        <li><a href='/'>Contact us</a></li>
+                        <li><a href='/'>Terms & Privacy</a></li>
+                        <li><a href='/'>FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <h1>Careers</h1>
+                    <ul>
+                        <li><a href='/'>Become an Instructor</a></li>
+                        <li><a href='/'>Work with us</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-2">
+                    <h1>Others</h1>
+                    <ul>
+                        <li><a href='/'>Help & Support</a></li>
+                        <li><a href='/'>Payments</a></li>
+                        <li><a href='/'>Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 text-right">
+                    <img src='./assets/images/fbsvg.svg'/>
+                    <img src='./assets/images/igsvg.svg'/>
+                    <img src='./assets/images/twittersvg.svg'/>
+                </div>
+            </div>
+            <div class="line-through"></div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    © 2020 SabiNow, Inc. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.course-slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: false,
+        infinite: true,
+        //arrows: true,
+        dots: false,
+        nextArrow: "<div class='slick-next'><i class='fas fa-chevron-right'></i></div>",
+        prevArrow: '',
+        autoplaySpeed: 2000,
+        responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false
+            }
+        },
+        {
+            breakpoint: 700,
+            settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 2
+            }
+        },
+        {
+            breakpoint: 500,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                initialSlide: 1
+            }
+        }
+        ]
+    });
+    </script>
+    </body>
+</html>

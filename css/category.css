@@ -1,0 +1,177 @@
+#introduction {
+    position: relative;
+    margin: 0 0 0 0;
+}
+
+#introduction .caption {
+    background: #E71C23;
+    color: #fff;
+    padding:25px 0;
+}
+
+#introduction .caption h1 {
+    font-size: 24px;
+    position: relative;
+    margin-left: 280px;
+    top: 10px;
+}
+
+#introduction .description{
+    padding: 20px 0;
+    
+}
+
+#introduction .description p {
+    color: #0F0708;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    margin-left: 280px;
+}
+
+#introduction .description span {
+    color: #0F0708;
+    font-size: 16px;
+    position: relative;
+    margin-left: 280px;
+}
+
+#introduction .category-box {
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 30px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 25px;
+    margin-left: 120px;
+}
+
+#introduction .category-box p {
+    color: #0F0708;
+    font-size: 16px;
+    margin: 10px 0 5px 0;
+}
+
+#introduction .category-box span {
+    color: #605E5C;
+    font-size: 11px;
+}
+
+#featured-growth {
+    background: url('../assets/images/bg-vector.svg');
+    background-repeat: no-repeat;
+    background-position: 900px -90px;
+    padding: 70px 0;
+}
+
+#featured-growth h1 {
+    color: #0F0708;
+    font-size: 24px;
+}
+
+#featured-growth p {
+    color: #0F0708;
+    font-size: 16px;
+}
+
+
+
+#sub-categories {
+    margin: 50px 0;
+}
+
+#sub-categories h1 {
+    color: #0F0708;
+    font-size: 24px;
+    margin: 15px 0 20px 0;
+}
+
+#sub-categories .sub-category-card {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+#popular-instructors {
+    margin: 40px 0;
+}
+
+#popular-instructors h1 {
+    color: #0F0708;
+    font-size: 24px;
+    margin: 15px 0 20px 0;
+}
+
+#popular-instructors .instructor-card {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px 10px;
+    padding: 30px 0;
+}
+
+#popular-instructors .instructor-card:focus {
+    outline: 0;
+}
+
+#popular-instructors .instructor-card img {
+    border-radius: 50%;
+    text-align: center;
+}
+
+#popular-instructors .instructor-card .instructor-details .instructor-name{
+    color: #0F0708;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 6px 0;
+}
+
+#popular-instructors .instructor-card .instructor-details .instructor-title{
+    color: #0F0708;
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+#popular-instructors .instructor-card .instructor-details .line-break{
+   width: 20%;
+   border-top: 1px solid #323130;
+   height: 1px;
+   margin: 8px auto;
+}
+
+#popular-instructors .instructor-card .instructor-details .students{
+    color: #E71C23;
+    font-size: 13px;
+ }
+
+ #popular-instructors .instructor-card .instructor-details .lectures{
+    color: #0F0708;
+    font-size: 13px;
+ }
+ 
+ 
+#navigation {
+    padding: 60px 0;
+}
+
+ #navigation .navigation .arrow {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+    padding: 6px 19px;
+    border-radius: 50%;
+    color: #E71C23;
+    font-size: 27px;
+    margin: 0 10px;
+    cursor: pointer;
+ }
+
+ #navigation .navigation span {
+     margin: 0 2px;
+ }

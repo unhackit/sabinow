@@ -1,0 +1,325 @@
+#deliverables-section {
+    margin: 40px 0;
+}
+
+#deliverables-section .deliverables .learning-scheme {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    height: 330px;
+}
+
+
+#deliverables-section .deliverables .learning-scheme h1{
+    font-size: 24px;
+    color: #323130;
+    margin: 10px 0 20px 0;
+}
+
+#deliverables-section .deliverables .learning-scheme p{
+    font-size: 14px;
+    color: #323130;
+    margin-left: 10px;
+    position: relative;
+    bottom: 4px;
+}
+#deliverables-section .deliverables .courses-scheme {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    height: 330px;
+}
+
+
+#deliverables-section .deliverables .courses-scheme h1{
+    font-size: 24px;
+    color: #323130;
+    margin: 10px 0 20px 0;
+}
+
+#deliverables-section .deliverables .courses-scheme p{
+    font-size: 13px;
+    color: #323130;
+    margin-left: 10px;
+}
+
+
+#deliverables-section .deliverables .courses-scheme img{
+    position: relative;
+    bottom: 7px;
+}
+
+
+#deliverables-section .deliverables .course-pricing {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    height: 330px;
+    text-align: center;
+}
+
+#deliverables-section .deliverables .course-pricing .pricing {
+    margin-top: 40px;
+}
+
+#deliverables-section .deliverables .course-pricing p {
+    color: #000000;
+    font-size: 16px;
+}
+
+#deliverables-section .deliverables .course-pricing h1 {
+    font-size: 42px;
+    color: #323130;
+}
+
+#deliverables-section .deliverables .course-pricing button {
+    background: #fff;
+    color: #323130;
+    border: 1px solid #323130;
+    padding: 10px 30px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+#course-structure {
+    margin: 50px 0;
+    background: url('../assets/images/bg-vector.svg');
+    background-repeat: no-repeat;
+    background-position: 700px 300px;
+}
+
+#course-structure h1{
+    font-size: 24px;
+    color: #323130;
+    margin: 10px 0 20px 0;
+}
+
+#course-structure .card {
+    border: none;
+    margin: 13px 0;
+    border-radius: 8px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+#course-structure .card-header button:focus {
+   outline: 0;
+}
+
+#course-structure .card-header {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#course-structure .card-body {
+    box-shadow: none;
+}
+
+#course-structure .card-header p{
+    margin: 0;
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+#course-structure .card-body p{
+    margin: 0;
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+#course-structure .requirement-box h1 {
+    color: #0F0708;
+    font-size: 22px;
+}
+
+#course-structure .requirement-box {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 15px;
+}
+
+#course-structure .requirement-box p {
+    font-size: 14px;
+    color: #323130;
+}
+
+#course-structure .description .description-box {
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 15px 20px;
+    background: #fff;
+}
+
+#course-structure .description .description-box h1{
+    color: #0F0708;
+    font-size: 24px;
+}
+
+#course-structure .description .description-box p{
+    color: #0F0708;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+#instructor-view {
+    margin: 30px 0;
+}
+
+#instructor-view h1{
+    font-size: 24px;
+    color: #0F0708;
+}
+
+#instructor-view .instructor-card {
+    background: #fff;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding:  25px 30px;
+}
+
+#instructor-view .instructor-card div div>img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+#instructor-view .instructor-card .instructor-summary img{
+    width: 17px;
+    margin-right: 5px;
+    position: relative;
+    bottom: 2px;
+}
+
+#instructor-view .instructor-card .instructor-summary p{
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+#instructor-view .instructor-card .name {
+    color: #0F0708;
+    font-weight: bold;
+    margin: 10px 0 3px 0;
+}
+
+#instructor-view .instructor-card .title {
+    color: #0F0708;
+    font-size: 13px;
+    
+}
+
+#instructor-view .instructor-card .description {
+    color: #0F0708;
+    font-size: 13px;
+    
+}
+
+#instructor-view .course-pricing {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    height: 254px;
+    text-align: center;
+}
+
+#instructor-view .course-pricing .pricing {
+    margin-top: 40px;
+}
+
+#instructor-view .course-pricing p {
+    color: #000000;
+    font-size: 16px;
+}
+
+#instructor-view .course-pricing h1 {
+    font-size: 42px;
+    color: #323130;
+}
+
+#instructor-view .course-pricing button {
+    background: #fff;
+    color: #323130;
+    border: 1px solid #323130;
+    padding: 10px 30px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+#reviews {
+    margin: 50px 0;
+}
+
+#reviews h1 {
+    color: #0F0708;
+    font-size: 24px;
+}
+
+#reviews .review-card {
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 40px 40px;
+    margin: 20px 0;
+}
+
+#reviews .review-card img {
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    
+}
+#reviews .review-card .name {
+    margin: 5px 0;
+    color: #0F0708;
+    font-weight: bold;
+}
+
+#reviews .review-card .name span {
+    font-weight: lighter;
+    font-size: 12px;
+    margin: 0 10px;
+}
+
+#reviews .review-card .description {
+    font-size: 13px;
+    line-height: 23px;
+    margin: 7px 0;
+}
+
+#reviews .review-card .review-help{
+    font-size: 13px;
+    line-height: 23px;
+    margin: 7px 0;
+    color: #605E5C;
+}
+
+#reviews .review-card .review-help .no{
+    color: #E71C23;
+}
+
+#reviews .review-card .review-help span{
+    cursor: pointer;
+    margin: 0 10px;
+}
+#reviews a {
+    color: #000;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+#similar {
+    margin: 50px 0;
+}
+
+#similar h1 {
+    color: #0F0708;
+    font-size: 24px;
+}
+
+#similar .similar-courses .course-collection {
+    display: flex;
+}

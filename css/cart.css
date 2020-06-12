@@ -1,0 +1,160 @@
+#cart {
+    background: url('../assets/images/cart-bg.svg');
+    background-repeat: no-repeat;
+    background-position: 480px -100px;
+    background-size: 800px 500px;
+}
+
+#cart .cart-card {
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 18%;
+    text-align: center;
+    padding: 30px 0px;
+    margin: 25px 0;
+}
+
+#cart .cart-card img {
+    width: 40px;
+}
+
+#cart .cart-card h1 {
+    color: #0F0708;
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+#cart .cart-card span {
+    color: #0F0708;
+    font-size: 12px;
+    margin: 15px 0;
+    color: #605E5C;
+}
+
+#cart .courses-group h1{
+    color: #0F0708;
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+#cart .cart-course {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#cart .cart-course .title {
+    color: #0F0708;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+#cart .cart-course .instructor {
+    color: #0F0708;
+    font-size: 13px;
+    margin: 0px 0;
+}
+
+#cart .cart-course .price-tag {
+    color: #fff;
+    background: #E71C23;
+    border-radius: 4px;
+    font-size: 12px;
+    width: 60%;
+    text-align: center;
+    margin: 20px 10px 0 auto;
+}
+
+#cart .cart-course i {
+    color: #E71C23;
+    font-size: 22px;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+#cart .cart-course .trash {
+    width: 15px;
+    margin: 20px 10px 0 auto;
+}
+
+#cart .cart-course {
+    margin: 30px 0;
+}
+
+#cart .pricing-group h1{
+    color: #0F0708;
+    font-size: 22px;
+    margin: 24px 0;
+}
+
+#cart .price-card {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#cart .price-card .title{
+    color: #000000;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+#cart .price-card .price{
+    color: #323130;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#cart .price-card .sub-price{
+    color: #605E5C;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+#cart .price-card .discount{
+    color: #605E5C;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+#cart .price-card button{
+    margin: 10px 0;
+    width: 100%;
+    color: #fff;
+    background: #E71C23;
+    border-radius: 10px;
+    padding: 8px 20px;
+    border: 1px solid #E71C23;
+}
+
+#cart .coupon-card {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: 15px;
+}
+
+#cart .coupon-card input{
+    border: none;
+    border-bottom: 1px solid  #605E5C;
+    color:  #605E5C;
+    font-size: 13px;
+    width: 100%;
+}
+
+#cart .coupon-card button{
+    background: #0F0708;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    width: 100%;
+    font-size: 13px;
+    padding: 10px 0;
+    margin: 10px 0;
+}

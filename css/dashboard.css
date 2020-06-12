@@ -1,0 +1,95 @@
+.dashboard-container {
+    width: 95%;
+    margin: 0 auto;
+}
+#dashboard {
+    overflow: hidden;
+}
+
+#dashboard .dash-flex {
+    display: flex;
+}
+
+#dashboard .dashboard-nav {
+    height: 88.5vh;
+    background:transparent;
+    box-shadow: 10px 10px 16px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    padding: 40px 20px;
+
+}
+
+
+#dashboard .dashboard-nav ul {
+    list-style: none;
+}
+
+#dashboard .dashboard-nav ul li span {
+    margin-right: 20px;
+}
+
+#dashboard .dashboard-nav ul li span img {
+    width: 15px;
+    position: relative;
+    top: -1px;
+}
+
+#dashboard .dashboard-nav ul li {
+    margin: 30px 0;
+    font-size: 14px;
+}
+
+#dashboard .dashboard-view {
+    width: 80%;
+    position: relative;
+}
+
+#dashboard .welcome-card {
+    background: #FDE8E9;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 50px 0 30px 0;
+    padding: 25px;
+    width: 100%;
+}
+
+#dashboard .welcome-card p{
+    margin: 0;
+}
+
+#dashboard .dashboard-view .card{
+    border-radius: 9px;
+}
+
+#dashboard .dashboard-view .card p {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+#dashboard .dashboard-view .card img {
+    position: relative;
+    bottom: 2px;
+}
+
+#dashboard .dashboard-view .card a {
+    color: #E71C23;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+#dashboard .line-break {
+    border: 1px solid #D3D4D8;
+    margin: 10px 0;
+}
+
+#dashboard .copyright {
+    color: #0F0708;
+    font-size: 14px;
+}
+
+#dashboard .dash-footer {
+    position: absolute;
+    bottom: 1px;
+    width: 95%;
+    
+}

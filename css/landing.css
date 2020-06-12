@@ -1,0 +1,264 @@
+*:focus {
+    outline: 0;
+    
+}
+
+#introduction {  
+    height: 478px;
+    width: 100%;
+    background-size: cover;
+    background-image: url('../assets/images/landingbanner.svg');
+    position: relative;
+}
+
+
+
+.layer {
+    background:linear-gradient(to right, rgba(15, 7, 8, 0.4) 20.14%, rgba(0, 0, 0, 0) 70.83%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#introduction .layer .custom-container>div {
+    padding: 100px 0;
+}
+
+#introduction .layer .custom-container div h1 {
+    color: #fff;
+    font-size: 48px;
+}
+
+#introduction .layer .custom-container div p {
+    color: #fff;
+    font-size: 16px;
+}
+
+#introduction .layer .custom-container .input-group {
+    width: 40%;
+}
+
+#introduction .layer .custom-container div input {
+    background:#fff;
+    border: none;
+    height: 50px;
+    border-radius: 7px 0 0 7px;
+}
+
+#introduction .layer .custom-container div .input-group i {
+    font-size: 14px;
+    color: #E71C23;
+}
+
+#introduction .layer .custom-container div .input-group-text {
+    background:#fff;
+    color: #A19F9D;
+    border: none;
+    border-radius: 0px 7px 7px 0;
+}
+
+
+/* OFFER SECTION */
+
+#offer {
+    padding: 60px 0;
+    border-bottom: 0.5px solid #A19F9D;
+}
+
+#offer h1 {
+    font-size: 30px;
+    color: #0F0708;
+    position: relative;
+    top: 20px;
+}
+
+#offer .title {
+    color: #605E5C;
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+#offer .title span {
+    color: #605E5C;
+    font-size: 14px;
+}
+
+#offer .description {
+    color: #0F0708;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+
+
+
+
+
+#featured {
+    margin: 50px 0;
+}
+
+#featured h1 {
+    color: #0F0708;
+    font-size: 24px;
+}
+
+#featured>p {
+    color: #0F0708;
+    font-size:16px;
+    margin: 20px 0;
+}
+
+#featured .featured-collection .course-collection {
+    display: flex;
+}
+
+/* popular */
+#popular {
+    background-image: url('../assets/images/bg-vector.svg');
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position: 750px 0px;
+    padding: 70px 0;
+}
+
+#popular h1 {
+    color: #0F0708;
+    font-size: 24px;
+}
+
+#popular p {
+    color: #0F0708;
+    font-size: 16px;
+}
+
+#popular .categories .category-box {
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 30px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+#popular .categories .category-box p {
+    color: #0F0708;
+    font-size: 16px;
+    margin: 10px 0 5px 0;
+}
+
+#popular .categories .category-box span{
+    color: #605E5C;
+    font-size: 11px;
+}
+
+/* get started */
+
+#get-started .get-started-banner{
+    background: url('../assets/images/getstarted.svg');
+    background-repeat: no-repeat;
+    height: 247px;
+    text-align: center;
+    margin: 40px 0;
+    position: relative;
+}
+
+#get-started .get-started-banner .layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0, 0,0.5);
+}
+
+#get-started .get-started-banner h1 {
+    color: #fff;
+    padding: 40px 0 0 0;
+}
+
+#get-started .get-started-banner p {
+    color: #fff;
+    margin: 10px 0;
+}
+
+#get-started .get-started-banner button {
+    color: #fff;
+    background: #E71C23;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 30px;
+    margin: 20px 0;
+}
+
+/* instructor */
+
+#instructor {
+    background: url('../assets/images/sketchvector.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 60px 0;
+}
+
+#instructor .instructor-detail {
+    margin-top: 50px;
+}
+
+#instructor .title {
+    color: #0F0708;
+    font-size: 24px;
+}
+
+#instructor .description {
+    color: #0F0708;
+    font-size: 16px;
+    width: 60%;
+}
+
+#instructor button {
+    background: #323130;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 30px;
+}
+
+#testimonial {
+    background: #F6F5F5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#testimonial .testimonial-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+#testimonial .testimonial-card p {
+    margin: 10px 0;
+}
+
+#testimonial .testimonial-card img {
+    border-radius: 50%;
+}
+
+#testimonial .testimonial-card .student {
+    color: #0F0708;
+    font-size: 16px;
+    margin: 35px 0 6px 0;
+}
+
+#testimonial .testimonial-card .description {
+    color: #0F0708;
+    font-size: 13px;
+}
+
+#testimonial h1 {
+    font-size: 36px;
+    color: #0F0708;
+}
+

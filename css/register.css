@@ -1,0 +1,62 @@
+.register-view {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.register-view h1 {
+    text-align: center;
+    color: #1D1D1D;
+    font-size: 32px;
+}
+
+.register-view .line {
+    border-top: 1px solid #F0F1F3;
+    height: 1px;
+    margin: 30px 0;
+}
+
+.register-view input {
+    border: 1px solid #0F0708;
+    font-size: 14px;
+    height: 50px;
+}
+
+.register-view ::placeholder {
+    font-size: 14px;
+}
+
+.register-view button {
+    color: #fff;
+    background: #0F0708;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px 0;
+    margin: 15px 0;
+}
+
+.register-view button:hover {
+    color: #fff;
+    background: #0F0708;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px 0;
+    margin: 15px 0;
+}
+
+.register-view p {
+    font-size: 13px;
+}
+
+.register-view a {
+    color: #E71C23;
+}
+
+.register-view span {
+    color: #E71C23;
+    font-size: 12px;
+}
+
+.form-control:focus {
+    outline: 0;
+    box-shadow: none;
+}

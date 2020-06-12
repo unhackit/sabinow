@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sabi Now</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/36afc40636.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="./css/category.css"/>
+        <link rel='stylesheet' href="./index.css"/>
+    </head>
+    <body>
+    <!-- navigation and main header-->
+    <header id='header'>
+        <div class="custom-container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="/"><img src='./assets/images/sabilogo.svg' alt='logo' width="100%"/></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon2"><i class="fas fa-search"></i></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Programs
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Become An Instructor</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><img src="./assets/images/cartvector.svg" alt='cart'/> Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link button-white" href='#'>LOG IN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link button-dark" href='#'>SIGN UP</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- main section-->
+    
+    <section id="introduction">
+        <div class="caption">
+            <div class="custom-container">
+                <h1>Growth Courses</h1>
+            </div>
+        </div>
+        <div class="description">
+            <div class="custom-container">
+                <p>The World’s Largest Selection of Courses</p>
+                <span>Choose from over 100,000 online video courses with new additions published every month</span>
+            </div>
+        </div>
+        <div class="category-box">
+            <img src='./assets/images/growthvector.svg'/>
+            <p>Growth</p>
+            <span>20,000 students like this</span>
+        </div>
+    </section>
+    
+
+    <section id='courses'>
+        <div class="custom-container">
+            <div class="courses-nav">
+                <p class="active">Most Popular</p>
+                <p>Trending</p>
+            </div>
+            <div class="course-slider course-collection">
+                <div class="card" style="width: 25rem; border-radius: 10px; margin-right: 15px;">
+                    <img src="./assets/images/coursecardvector.svg" class="card-img-top" alt="...">
+                    <span class="price">$399</span>
+                    <div class="card-body">
+                      <h5 class="card-title">Communicating Effectively</h5>
+                      <p class="card-text instructor">Chris Doherty</p>
+                      <div class="d-flex">
+                        <div class="Stars" style="--rating: 2.9;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                        <span class="rate-text">3.6 (17,426)</span>
+                      </div>
+                      <p class="card-text experience"><i class="fas fa-signal"></i> Intermediate</p>
+                      <p class="card-text timer"><i class="far fa-clock"></i> 8 hours total</p>
+                      <div class="d-flex justify-content-between action mt-3">
+                        <button>Add to Cart</button>
+                        <i class="far fa-heart"></i>
+                      </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 25rem; border-radius: 10px; margin-right: 15px;">
+                    <img src="./assets/images/coursecardvector.svg" class="card-img-top" alt="...">
+                    <span class="price">$399</span>
+                    <div class="card-body">
+                      <h5 class="card-title">Communicating Effectively</h5>
+                      <p class="card-text instructor">Chris Doherty</p>
+                      <div class="d-flex">
+                        <div class="Stars" style="--rating: 2.9;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                        <span class="rate-text">3.6 (17,426)</span>
+                      </div>
+                      <p class="card-text experience"><i class="fas fa-signal"></i> Intermediate</p>
+                      <p class="card-text timer"><i class="far fa-clock"></i> 8 hours total</p>
+                      <div class="d-flex justify-content-between action mt-3">
+                        <button>Add to Cart</button>
+                        <i class="far fa-heart"></i>
+                      </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 25rem; border-radius: 10px; margin-right: 15px;">
+                    <img src="./assets/images/coursecardvector.svg" class="card-img-top" alt="...">
+                    <span class="price">$399</span>
+                    <div class="card-body">
+                      <h5 class="card-title">Communicating Effectively</h5>
+                      <p class="card-text instructor">Chris Doherty</p>
+                      <div class="d-flex">
+                        <div class="Stars" style="--rating: 2.9;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                        <span class="rate-text">3.6 (17,426)</span>
+                      </div>
+                      <p class="card-text experience"><i class="fas fa-signal"></i> Intermediate</p>
+                      <p class="card-text timer"><i class="far fa-clock"></i> 8 hours total</p>
+                      <div class="d-flex justify-content-between action mt-3">
+                        <button>Add to Cart</button>
+                        <i class="far fa-heart"></i>
+                      </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 25rem; border-radius: 10px; margin-right: 15px;">
+                    <img src="./assets/images/coursecardvector.svg" class="card-img-top" alt="...">
+                    <span class="price">$399</span>
+                    <div class="card-body">
+                      <h5 class="card-title">Communicating Effectively</h5>
+                      <p class="card-text instructor">Chris Doherty</p>
+                      <div class="d-flex">
+                        <div class="Stars" style="--rating: 2.9;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                        <span class="rate-text">3.6 (17,426)</span>
+                      </div>
+                      <p class="card-text experience"><i class="fas fa-signal"></i> Intermediate</p>
+                      <p class="card-text timer"><i class="far fa-clock"></i> 8 hours total</p>
+                      <div class="d-flex justify-content-between action mt-3">
+                        <button>Add to Cart</button>
+                        <i class="far fa-heart"></i>
+                      </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 25rem; border-radius: 10px; margin-right: 15px;">
+                    <img src="./assets/images/coursecardvector.svg" class="card-img-top" alt="...">
+                    <span class="price">$399</span>
+                    <div class="card-body">
+                      <h5 class="card-title">Communicating Effectively</h5>
+                      <p class="card-text instructor">Chris Doherty</p>
+                      <div class="d-flex">
+                        <div class="Stars" style="--rating: 2.9;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                        <span class="rate-text">3.6 (17,426)</span>
+                      </div>
+                      <p class="card-text experience"><i class="fas fa-signal"></i> Intermediate</p>
+                      <p class="card-text timer"><i class="far fa-clock"></i> 8 hours total</p>
+                      <div class="d-flex justify-content-between action mt-3">
+                        <button>Add to Cart</button>
+                        <i class="far fa-heart"></i>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured-growth" class="mb-3">
+        <div class="custom-container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Featured Growth Course</h1>
+                    <p>Sign up and get started with any course of your choice</p>
+                    <div class="scape-course-card">
+                        <div class="row">
+                            <div class="col-md-3 course-image">
+                                <img src="assets/images/scape vector.svg"/>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="course-description">
+                                    <div class="d-flex justify-content-between">
+                                        <h1>Communicating Effectively <span class="time"><i class="far fa-clock"></i> 8 hours total  • 59 lectures</span></h1>
+                                        <span class="favorite"><i class="far fa-heart"></i></span>
+                                    </div>
+                                    <div class="d-flex">
+                                        <span class="latest-update">Last updated May 8, 2020</span>
+                                        <div class="d-flex">
+                                            <div class="Stars" style="--rating: 2.9;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                                            <span class="rate-text">3.6 (17,426)</span>
+                                            <span class="level"><i class="fas fa-signal"></i> Intermediate</span>
+                                        </div>
+                                    </div>
+                                    <span class="owner">By Brad Parsely </span>
+                                    <p class="description">Create 3 useful desktop applications with web technologies using Electron </p>
+                                    <div class="d-flex justify-content-between">
+                                        <button>Explore</button>
+                                        <span class="price-badge">$300</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sub-categories">
+        <div class="custom-container">
+            <h1>Sub-categories</h1>
+            <div class="row">
+                <div class="col-md-4 col-lg-2">
+                    <div class="sub-category-card">
+                        Sub Category
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <div class="sub-category-card">
+                        Sub Category
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <div class="sub-category-card">
+                        Sub Category
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <div class="sub-category-card">
+                        Sub Category
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-4 col-lg-2">
+                    <div class="sub-category-card">
+                        Sub Category
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <div class="sub-category-card">
+                        Sub Category
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <div class="sub-category-card">
+                        Sub Category
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <div class="sub-category-card">
+                        Sub Category
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id='popular-instructors'>
+        <div class="custom-container">
+            <div>
+                <h1>Popular Instructors</h1>
+            </div>
+            <div class="instructor-slider">
+                <div class="instructor-card">
+                    <div class="d-flex justify-content-center mt-2 mb-3">
+                        <img src="./assets/images/instructor-card.svg"/>
+                    </div>
+                    <div class="instructor-details">
+                        <p class="instructor-name">Chris Herd</p>
+                        <p class="instructor-title">Marketing, CSS</p>
+                        <p class="line-break"></p>
+                        <p class="students"> 32,000</p>
+                        <p class="lectures">190</p>
+                    </div>
+                </div>
+                <div class="instructor-card">
+                    <div class="d-flex justify-content-center mt-2 mb-3">
+                        <img src="./assets/images/instructor-card.svg"/>
+                    </div>
+                    <div class="instructor-details">
+                        <p class="instructor-name">Chris Herd</p>
+                        <p class="instructor-title">Marketing, CSS</p>
+                        <p class="line-break"></p>
+                        <p class="students"> 32,000</p>
+                        <p class="lectures">190</p>
+                    </div>
+                </div>
+                <div class="instructor-card">
+                    <div class="d-flex justify-content-center mt-2 mb-3">
+                        <img src="./assets/images/instructor-card.svg"/>
+                    </div>
+                    <div class="instructor-details">
+                        <p class="instructor-name">Chris Herd</p>
+                        <p class="instructor-title">Marketing, CSS</p>
+                        <p class="line-break"></p>
+                        <p class="students"> 32,000</p>
+                        <p class="lectures">190</p>
+                    </div>
+                </div>
+                <div class="instructor-card">
+                    <div class="d-flex justify-content-center mt-2 mb-3">
+                        <img src="./assets/images/instructor-card.svg"/>
+                    </div>
+                    <div class="instructor-details">
+                        <p class="instructor-name">Chris Herd</p>
+                        <p class="instructor-title">Marketing, CSS</p>
+                        <p class="line-break"></p>
+                        <p class="students"> 32,000</p>
+                        <p class="lectures">190</p>
+                    </div>
+                </div>
+                <div class="instructor-card">
+                    <div class="d-flex justify-content-center mt-2 mb-3">
+                        <img src="./assets/images/instructor-card.svg"/>
+                    </div>
+                    <div class="instructor-details">
+                        <p class="instructor-name">Chris Herd</p>
+                        <p class="instructor-title">Marketing, CSS</p>
+                        <p class="line-break"></p>
+                        <p class="students"> 32,000</p>
+                        <p class="lectures">190</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses-landscape">
+        <div class="custom-container">
+            <h1>Courses</h1>
+            <div class="filter-box">
+                <p>Filter Results <select><option>Choose</option></select></p>
+            </div>
+            <div class="scape-course-card mt-5 mb-5">
+                <div class="row">
+                    <div class="col-md-3 course-image">
+                        <img src="assets/images/scape vector.svg"/>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="course-description">
+                            <div class="d-flex justify-content-between">
+                                <h1>Communicating Effectively <span class="time"><i class="far fa-clock"></i> 8 hours total  • 59 lectures</span></h1>
+                                <span class="favorite"><i class="far fa-heart"></i></span>
+                            </div>
+                            <div class="d-flex">
+                                <span class="latest-update">Last updated May 8, 2020</span>
+                                <div class="d-flex">
+                                    <div class="Stars" style="--rating: 2.9;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                                    <span class="rate-text">3.6 (17,426)</span>
+                                    <span class="level"><i class="fas fa-signal"></i> Intermediate</span>
+                                </div>
+                            </div>
+                            <span class="owner">By Brad Parsely </span>
+                            <p class="description">Create 3 useful desktop applications with web technologies using Electron </p>
+                            <div class="d-flex justify-content-between">
+                                <button>Explore</button>
+                                <span class="price-badge">$300</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scape-course-card mt-5 mb-5">
+                <div class="row">
+                    <div class="col-md-3 course-image">
+                        <img src="assets/images/scape vector.svg"/>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="course-description">
+                            <div class="d-flex justify-content-between">
+                                <h1>Communicating Effectively <span class="time"><i class="far fa-clock"></i> 8 hours total  • 59 lectures</span></h1>
+                                <span class="favorite"><i class="far fa-heart"></i></span>
+                            </div>
+                            <div class="d-flex">
+                                <span class="latest-update">Last updated May 8, 2020</span>
+                                <div class="d-flex">
+                                    <div class="Stars" style="--rating: 2.9;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                                    <span class="rate-text">3.6 (17,426)</span>
+                                    <span class="level"><i class="fas fa-signal"></i> Intermediate</span>
+                                </div>
+                            </div>
+                            <span class="owner">By Brad Parsely </span>
+                            <p class="description">Create 3 useful desktop applications with web technologies using Electron </p>
+                            <div class="d-flex justify-content-between">
+                                <button>Explore</button>
+                                <span class="price-badge">$300</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scape-course-card mt-5 mb-5">
+                <div class="row">
+                    <div class="col-md-3 course-image">
+                        <img src="assets/images/scape vector.svg"/>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="course-description">
+                            <div class="d-flex justify-content-between">
+                                <h1>Communicating Effectively <span class="time"><i class="far fa-clock"></i> 8 hours total  • 59 lectures</span></h1>
+                                <span class="favorite"><i class="far fa-heart"></i></span>
+                            </div>
+                            <div class="d-flex">
+                                <span class="latest-update">Last updated May 8, 2020</span>
+                                <div class="d-flex">
+                                    <div class="Stars" style="--rating: 2.9;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                                    <span class="rate-text">3.6 (17,426)</span>
+                                    <span class="level"><i class="fas fa-signal"></i> Intermediate</span>
+                                </div>
+                            </div>
+                            <span class="owner">By Brad Parsely </span>
+                            <p class="description">Create 3 useful desktop applications with web technologies using Electron </p>
+                            <div class="d-flex justify-content-between">
+                                <button>Explore</button>
+                                <span class="price-badge">$300</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scape-course-card mt-5 mb-5">
+                <div class="row">
+                    <div class="col-md-3 course-image">
+                        <img src="assets/images/scape vector.svg"/>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="course-description">
+                            <div class="d-flex justify-content-between">
+                                <h1>Communicating Effectively <span class="time"><i class="far fa-clock"></i> 8 hours total  • 59 lectures</span></h1>
+                                <span class="favorite"><i class="far fa-heart"></i></span>
+                            </div>
+                            <div class="d-flex">
+                                <span class="latest-update">Last updated May 8, 2020</span>
+                                <div class="d-flex">
+                                    <div class="Stars" style="--rating: 2.9;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                                    <span class="rate-text">3.6 (17,426)</span>
+                                    <span class="level"><i class="fas fa-signal"></i> Intermediate</span>
+                                </div>
+                            </div>
+                            <span class="owner">By Brad Parsely </span>
+                            <p class="description">Create 3 useful desktop applications with web technologies using Electron </p>
+                            <div class="d-flex justify-content-between">
+                                <button>Explore</button>
+                                <span class="price-badge">$300</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scape-course-card mt-5 mb-5">
+                <div class="row">
+                    <div class="col-md-3 course-image">
+                        <img src="assets/images/scape vector.svg"/>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="course-description">
+                            <div class="d-flex justify-content-between">
+                                <h1>Communicating Effectively <span class="time"><i class="far fa-clock"></i> 8 hours total  • 59 lectures</span></h1>
+                                <span class="favorite"><i class="far fa-heart"></i></span>
+                            </div>
+                            <div class="d-flex">
+                                <span class="latest-update">Last updated May 8, 2020</span>
+                                <div class="d-flex">
+                                    <div class="Stars" style="--rating: 2.9;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                                    <span class="rate-text">3.6 (17,426)</span>
+                                    <span class="level"><i class="fas fa-signal"></i> Intermediate</span>
+                                </div>
+                            </div>
+                            <span class="owner">By Brad Parsely </span>
+                            <p class="description">Create 3 useful desktop applications with web technologies using Electron </p>
+                            <div class="d-flex justify-content-between">
+                                <button>Explore</button>
+                                <span class="price-badge">$300</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="navigation">
+        <div class="custom-container">
+            <div class="navigation d-flex justify-content-center align-items-center">
+                <span class="arrow"><i class="fas fa-chevron-left"></i></span>
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>...</span>
+                <span>100</span>
+                <span class="arrow"><i class="fas fa-chevron-right"></i></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="custom-container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <h1>SabiNow</h1>
+                    <ul>
+                        <li><a href='/'>About us</a></li>
+                        <li><a href='/'>Contact us</a></li>
+                        <li><a href='/'>Terms & Privacy</a></li>
+                        <li><a href='/'>FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <h1>Careers</h1>
+                    <ul>
+                        <li><a href='/'>Become an Instructor</a></li>
+                        <li><a href='/'>Work with us</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-2">
+                    <h1>Others</h1>
+                    <ul>
+                        <li><a href='/'>Help & Support</a></li>
+                        <li><a href='/'>Payments</a></li>
+                        <li><a href='/'>Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4 text-right">
+                    <img src='./assets/images/fbsvg.svg'/>
+                    <img src='./assets/images/igsvg.svg'/>
+                    <img src='./assets/images/twittersvg.svg'/>
+                </div>
+            </div>
+            <div class="line-through"></div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    © 2020 SabiNow, Inc. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.course-slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: false,
+        infinite: true,
+        //arrows: true,
+        dots: false,
+        nextArrow: "<div class='slick-next'><i class='fas fa-chevron-right'></i></div>",
+        prevArrow: '',
+        autoplaySpeed: 2000,
+        responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false
+            }
+        },
+        {
+            breakpoint: 700,
+            settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 2
+            }
+        },
+        {
+            breakpoint: 500,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                initialSlide: 1
+            }
+        }
+        ]
+    });
+
+    $('.instructor-slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        infinite: true,
+        arrows: false,
+        dots: false,
+        autoplaySpeed: 2000,
+        responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false
+            }
+        },
+        {
+            breakpoint: 700,
+            settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 2
+            }
+        },
+        {
+            breakpoint: 500,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                initialSlide: 1
+            }
+        }
+        ]
+    });
+    </script>
+    </body>
+</html>
