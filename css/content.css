@@ -1,0 +1,226 @@
+.custom-container {
+    width: 85%;
+    margin: 0 auto;
+}
+#header {
+    background: #fff;
+    box-shadow: 0px 0px 15px #000;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+#header .custom-container .navbar-nav {
+    position: relative;
+    top: 10px;
+}
+
+#header .custom-container .navbar-nav .nav-item {
+    margin-left: 20px;
+    font-size: 14px;
+    color: #323130;
+}
+
+#header .custom-container .navbar-nav .nav-item img {
+   width: 50px;
+   border-radius: 50%;
+   height: 50px;
+   position: relative;
+   bottom: 10px;
+}
+
+#header .custom-container .navbar-nav .nav-link {
+    color: #323130;
+}
+
+#header .custom-container input {
+    background:#EFEFEF;
+    border: none;
+    height: 45px;
+    border-radius: 7px 0 0 7px;
+}
+
+#header .custom-container input i {
+    font-size: 14px;
+}
+
+
+#header .custom-container .input-group-text {
+    background:#EFEFEF;
+    color: #A19F9D;
+    border: none;
+    border-radius: 0px 7px 7px 0;
+}
+
+#header .custom-container ::placeholder {
+    background:#EFEFEF;
+    font-size: 13px;
+    color: #A19F9D;
+}
+
+#header .custom-container .button-white {
+    border: 1px solid #0F0708;
+    color: #0F0708;
+    border-radius: 7px;
+    padding: 8px 30px;
+    font-size: 14px;
+}
+
+#header .custom-container .button-white:hover {
+    border: 1px solid #0F0708;
+    background: #0F0708;
+    color: #fff;
+    border-radius: 7px;
+    padding: 8px 30px;
+    font-size: 14px;
+}
+
+#header .custom-container .button-dark {
+    border: 1px solid #0F0708;
+    background: #0F0708;
+    color: #fff!important;
+    border-radius: 7px;
+    padding: 8px 30px;
+    font-size: 14px;
+}
+
+#header .custom-container .button-dark:hover {
+    border: 1px solid #0F0708;
+    background: #fff;
+    border-radius: 7px;
+    padding: 8px 30px;
+    font-size: 14px;
+    color: #0F0708!important;
+}
+
+.dashboard-container {
+    width: 93%;
+    margin: 0 auto;
+}
+
+#dash-course .dash-course-flex{
+    display: flex;
+}
+
+#dash-course .dash-course-flex .dash-course-nav{
+    background: #FDE8E9;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+    min-height: 88.5vh;
+    padding: 40px 10px;
+    width: 18%;
+    text-align: center;
+    position: fixed;
+    top: 80px;
+}
+
+#dash-course .dash-course-flex .dash-course-nav .dash-nav-item {
+    margin: 25px 0;
+    color: #000;
+}   
+
+#dash-course .dash-course-flex .dash-course-nav .dash-nav-item span{
+    margin: 8px 0;
+    color: #000;
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+}   
+
+#dash-course .dash-course-detail {
+    width: 80%;
+    margin-left: 18%;
+}
+
+#dash-course .dash-course-detail .sub-nav {
+    background-color: #fff;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 82%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:-1;
+}
+
+
+#dash-course .dash-course-detail .sub-nav p{
+    padding: 40px 0 10px 0;
+    margin: 0 10px 0 40px ;
+    border-bottom: 3px solid #FFF;
+    cursor: pointer; 
+    background: #fff;
+}
+
+#dash-course .dash-course-detail .sub-nav h1{
+    padding: 10px 0 10px 0;
+    margin: 0 10px 0 40px ;
+    border-bottom: 3px solid #FFF;
+    cursor: pointer; 
+    font-size: 30px;
+}
+
+#dash-course .dash-course-detail .sub-nav button{
+    position: relative;
+    color: #0F0708;
+    font-size: 14px;
+    border: 1px solid #0F0708;
+    border-radius: 6px;
+    background: #fff;
+    padding: 10px 15px;
+    margin-right: 10px;
+}
+
+.plyr-container {
+    margin: 200px 0 0 0;
+    width: 50%!important;
+}
+
+
+#dash-course video:focus {
+    outline: none;
+}
+
+#dash-course .video-actions {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+    align-items: center;
+}
+
+#dash-course .video-actions p {
+    color: #323130;
+    font-size: 14px;
+}
+
+#dash-course .video-actions button {
+    color: #323130;
+    border: 1px solid #323130;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #fff;
+    position: relative;
+    bottom: 10px;
+}
+
+.dash-footer {
+    position: relative;
+    bottom: 1px;
+    width: 100%;
+}
+
+#dash-course .download-text {
+    color: #323130;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.copyright {
+    color: #0F0708;
+    font-size: 14px;
+}
+.line-break {
+    border: 1px solid #D3D4D8;
+    margin: 10px 0;
+}
