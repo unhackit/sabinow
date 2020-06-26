@@ -175,3 +175,7 @@
  #navigation .navigation span {
      margin: 0 2px;
  }
+
+ .hidden {
+     display: none!important;
+ }
